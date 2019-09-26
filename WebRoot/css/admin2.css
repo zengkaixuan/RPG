@@ -1,0 +1,115 @@
+@CHARSET "UTF-8";
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.re90{
+	transform:rotate(90deg);
+	-ms-transform:rotate(90deg); /* Internet Explorer 9*/
+	-moz-transform:rotate(90deg); /* Firefox */
+	-webkit-transform:rotate(90deg); /* Safari 和 Chrome */
+	-o-transform:rotate(90deg); /* Opera */
+}
+.text{ 
+	font-size: 1.5vw;
+}
+
+* {	
+	margin: 0;
+	padding: 0;
+}
+
+.main{
+	width: 100%;
+	height: 100%;
+}
+
+/* LOGO */
+.logo{
+	width:100%;
+	background-size:100% 100%;
+	background-color: black;
+}
+.logo img{
+	margin:1% 1% 1% 1%;
+	width: 10%;
+	height: auto;
+}
+
+/* 首页 */
+.pageIndex{
+	width:100%;
+	height: 100%;
+}
+/*左侧导航*/
+.pageLeft{
+	width:20%;
+	height: 100%;
+	background-color: black;
+	text-align:center;
+}
+.pageLeft input{
+	font-size: 2vw;
+	color:white;
+	font-weight:bold;
+	cursor: pointer;
+	margin: 10% 10%;
+	background-color: black;
+}
+
+/*右侧数据和页码*/
+.pageRight{
+	width:80%;
+	height: 100%;
+	background-color: #ffffe1;
+}
+/*数据表*/
+.dataTable{
+	width:100%;
+}
+.table{
+	width:100%;
+	border-collapse:collapse;
+	text-align: center;
+	background-color: #eeeeff;
+	font-size: 1.5vw;
+}
+.table tr th,td{
+	border:1px solid black;
+	padding:1% 0;
+	margin: 0;
+}
+.table tr th{
+	background-color:#fff4e1;
+}
+
+/*页码*/
+.pageNum{
+	width: 100%;
+	margin-top: 2%;
+}
+.pageInfo{
+	width:100%;
+	list-style-type:none;
+	font-weight: bold;
+}
+.pageInfo li{
+	border: 1px solid #ffffe1;
+}
+.pageInfo li>a{
+	font-size: 1.5vw;
+}
+.pageToal{
+	margin:0 10% 0 10%;
+}
+.pages{
+	margin-left:2%;
+}
+.firstPage,.pageUp,.pageDown,.lastPage{
+	width: 6%;
+}
+
+
+

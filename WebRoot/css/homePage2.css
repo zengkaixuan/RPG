@@ -1,0 +1,329 @@
+@CHARSET "UTF-8";
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.re90{
+	transform:rotate(90deg);
+	-ms-transform:rotate(90deg); /* Internet Explorer 9*/
+	-moz-transform:rotate(90deg); /* Firefox */
+	-webkit-transform:rotate(90deg); /* Safari 和 Chrome */
+	-o-transform:rotate(90deg); /* Opera */
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.main{
+	width: 100%;
+}
+
+.text{
+	font-size: 1.5vw;
+}
+
+span{
+	cursor: pointer;
+}
+
+/* LOGO */
+.logo{
+	width:100%;
+	background-size:100% 100%;
+	background-color: black;
+}
+.logo img{
+	margin:1% 1% 0% 1%;
+	width: 10%;
+	height: auto;
+}
+
+/* 首页 */
+.pageIndex{
+	width:100%;
+	padding-bottom:50%;
+	background-size:100% 100%;
+	background-image: url("../images/homeImgs/bgIndex.gif");
+	background-repeat: no-repeat;
+}
+.music{
+	position:absolute;
+	margin:4% 0 0 1%; 
+	
+}
+.musicInfo{
+	color:black;
+	cursor: pointer;
+	font-size: 1.5vw;
+}
+
+.video{
+	width:30%;
+	margin:18% 0% 0% 47%;
+}
+.video img{
+	width: 100%;
+	height: auto;
+	cursor: pointer;
+}
+.videoDiv{
+    position: absolute;
+    top: 20%;
+    left: 28%;
+    background-size: 100% 100%;
+    background-image: url(../images/homeImgs/videoBg.gif);
+    background-repeat: no-repeat;
+    width: 50%;
+    padding-bottom: 33%;
+    height: 0;
+}
+video{
+    position: absolute;
+    top: 2%;
+    left: 7%;
+    width: 86%;
+    height: 90%;
+}
+.closeVideo{
+	position: inherit;
+	width:3%;
+	height:5%;
+	margin: 1% 0 0 94%;
+	cursor: pointer;
+}
+
+.indexRight{
+	width:20%;
+	margin:16% 0% 0% 1%;
+}
+.indexRight img{
+	width: 100%;
+	height: auto;
+	cursor: pointer;
+}
+.register{
+	margin-top: 75%;
+}
+
+/* 登陆 */
+.loginClose{
+    position: inherit;
+    width: 7%;
+    height: 6%;
+    margin: 25% 0 0 91%;
+    cursor: pointer;
+}
+.loginOp{
+	position:absolute;
+	width: 40%;
+	height: 100%;
+	top: 8%;
+	left: 37%;
+	display: none;
+}
+.loginHead{
+	width:100%;
+	padding-bottom:50%;
+	background-size:100% 100%;
+	background-image: url("../images/homeImgs/denglutou.png");
+	background-repeat: no-repeat;
+}
+.loginBody{
+	width:100%;
+	padding-bottom:50%;
+	background-size:100% 100%;
+	background-image: url("../images/homeImgs/denglushen.png");
+	background-repeat: no-repeat;
+	padding: 2% 0;
+}
+.tableDL{
+	width:80%;
+	text-align: center;
+	margin:auto;
+	font-size: 1.5vw;
+}
+.tableDL tr td{
+	padding: 5% 0;
+}
+.loginBt{
+	color: white;
+	background-color: #ffc04d;
+	padding: 0 20%; 
+}
+.key{
+	text-align: right;
+}
+.input{
+	text-align: left;
+}
+.input input{
+	width:70%;
+	font-size: 1.5vw; 
+	margin-left: 2%;
+}
+
+/* 注册 */
+input::-webkit-input-placeholder {
+       /* placeholder颜色  */
+       color: #aab2bd;
+       /* placeholder字体大小  */
+       font-size: 1.2vw;
+}
+
+.registerClose{
+    position: inherit;
+    width: 7%;
+    height: 6%;
+    margin: 25% 0 0 91%;
+    cursor: pointer;
+}
+.registerOp{
+	position:absolute;
+	width: 40%;
+	height: 100%;
+	top: 0%;
+	left: 37%;
+	display: none;
+}
+.registerHead{
+	width:100%;
+	padding-bottom:50%;
+	background-size:100% 100%;
+	background-image: url("../images/homeImgs/zhucetou.png");
+	background-repeat: no-repeat;
+}
+.registerBody{
+	width:100%;
+	padding-bottom:50%;
+	background-size:100% 100%;
+	background-image: url("../images/homeImgs/zhuceshen.png");
+	background-repeat: no-repeat;
+	padding: 2% 0;
+}
+.tableZC{
+	width:80%;
+	text-align: center;
+	margin:auto;
+	font-size: 1.5vw;
+}
+.tableZC tr td{
+	padding: 5% 0;
+}
+.registerBt{
+	color: white;
+	background-color: #ffc04d;
+	padding: 0 20%; 
+}
+.key{
+	text-align: right;
+}
+.input{
+	text-align: left;
+}
+.input input{
+	width:70%;
+	font-size: 1.5vw; 
+	margin-left: 2%;
+}
+
+
+/*故事背景*/
+.story{
+	width:100%;
+	padding-bottom:50%;
+	background-size:100% 100%;
+	background-image: url("../images/homeImgs/bgBackStory.gif");
+	background-repeat: no-repeat;
+}
+	
+/*人物介绍*/
+.character{
+	width:100%;
+	padding-bottom:50%;
+	background-size:100% 100%;
+	background-image: url("../images/homeImgs/bgCharacter.gif");
+	background-repeat: no-repeat;
+}
+.chDiv1,.chDiv2{
+	margin-top:15%;
+	width:40%;
+	position: relative;
+}
+.chDiv1{
+	margin-left:5%; 
+}
+.chDiv1 img,.chDiv2 img{
+	width: 80%
+}
+.chImg1,.chImg2{
+	width: 80%;
+}
+
+/*地图介绍*/
+.area{
+	width:100%;
+	padding-bottom:50%;
+	background-size:100% 100%;
+	background-image: url("../images/homeImgs/bgArea.gif");
+	background-repeat: no-repeat;
+}	
+
+#area1{
+    width: 10%;
+    height: 30%;
+    margin-top: 20%;
+    margin-left: 28%;
+    position: relative;
+}
+#area2{
+    width: 15%;
+    height: 15%;
+    margin-top: 9%;
+    margin-left: 5%;
+    position: relative;
+}
+#area3{
+    width: 10%;
+    height: 30%;
+    margin-top: 20%;
+    margin-left: 10%;
+    position: relative;
+}
+.areaShow{
+    width: 26%;
+    height: 38%;
+    margin-top: 20%;
+    margin-left: 40%;
+    position: absolute;
+}
+.areaImg{
+	width: 100%;
+}
+
+/* 左侧导航 */
+.lift-nav li.current {
+	opacity:1;
+	/* border:1px solid black; */
+	width:60%;
+	margin-left: 5%;
+} 
+.lift{
+	width:20%;
+	position: fixed;
+	top:30%;
+	left:2%;
+	list-style:none;
+}
+.lift li{	
+	width:60%;
+	opacity:0.4;
+	margin-bottom: 20%;
+	cursor: pointer;
+}
+.xs5{
+	width:100%;
+}

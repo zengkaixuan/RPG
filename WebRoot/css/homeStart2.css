@@ -1,0 +1,80 @@
+@CHARSET "UTF-8";
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.re90{
+	transform:rotate(90deg);
+	-ms-transform:rotate(90deg); /* Internet Explorer 9*/
+	-moz-transform:rotate(90deg); /* Firefox */
+	-webkit-transform:rotate(90deg); /* Safari 和 Chrome */
+	-o-transform:rotate(90deg); /* Opera */
+}
+.text{ 
+	font-size: 1.8vw;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.main{
+	width: 100%;
+}
+
+/* LOGO */
+.logo{
+	width:100%;
+	background-size:100% 100%;
+	background-color: black;
+}
+.logo img{
+	margin:1% 1% 0% 1%;
+	width: 10%;
+	height: auto;
+}
+
+/* 首页 */
+.pageIndex{
+	width:100%;
+	padding-bottom:50%;
+	background-size:100% 100%;
+	background-image: url("../images/homeImgs/bgIndex.gif");
+	background-repeat: no-repeat;
+}
+.music{
+	position:absolute;
+	margin:4% 0 0 1%; 
+	
+}
+.musicInfo{
+	color:black;
+	cursor: pointer;
+	font-size: 1.5vw;
+}
+
+.indexRight{
+	width:20%;
+	margin:16% 0% 0% 78%;
+}
+.indexRight img{
+	width: 100%;
+	height: auto;
+	cursor: pointer;
+}
+.welcome{
+	margin-top:20%;
+}
+
+.returnHome{
+	margin-top: 21%;
+}
+
+.updatePass{
+	width:50%;
+	margin-top: 5%;	
+	margin-left: 25%;	
+}

@@ -1,0 +1,93 @@
+@CHARSET "UTF-8";
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.re90{
+	transform:rotate(90deg);
+	-ms-transform:rotate(90deg); /* Internet Explorer 9*/
+	-moz-transform:rotate(90deg); /* Firefox */
+	-webkit-transform:rotate(90deg); /* Safari 和 Chrome */
+	-o-transform:rotate(90deg); /* Opera */
+}
+.text{ 
+	font-size: 1.5vw;
+}
+
+* {	
+	margin: 0;
+	padding: 0;
+}
+
+.main{
+	width: 100%;
+	height: 100%;
+}
+
+/* LOGO */
+.logo{
+	width:100%;
+	background-size:100% 100%;
+	background-color: black;
+}
+.logo img{
+	margin:1% 1% 1% 1%;
+	width: 10%;
+	height: auto;
+}
+
+/*修改密码*/
+.pageIndex{
+	width:100%;
+	padding-bottom:60%;
+	background-size:100% 100%;
+	background-image: url("../images/passOperate/bgPass.gif");
+	background-repeat: no-repeat;
+}
+
+.operate{
+	width: 40%;
+	margin: 2% 30%;
+}
+.operateTop{
+	background-image: url("../images/passOperate/tou.png");
+	width:100%;
+	padding-bottom:20%;
+	background-size:100% 100%;
+	background-repeat: no-repeat;
+}
+.tableBg{
+	width:100%;
+	background-size:100% 100%;
+	background-image: url("../images/passOperate/shen.png");
+	background-repeat: no-repeat;
+	padding: 5% 0;
+}
+.table{
+	width:80%;
+	text-align: center;
+	margin:auto;
+	font-size: 1.5vw;
+}
+.table tr td{
+	padding: 5% 0;
+}
+.check{
+	color: white;
+	background-color: #ffc04d;
+	padding: 2% 5%; 
+	cursor: pointer;
+}
+.key{
+	text-align: right;
+}
+.input{
+	text-align: left;
+}
+.input input{
+	width:70%;
+	font-size: 1.5vw; 
+	margin-left: 2%;
+}
